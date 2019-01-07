@@ -224,7 +224,7 @@
     @endif
     
     <!-- SECTION 1 -->
-    <section id="mc-section-1" style="padding:25px 0px;" class="mc-section-1 section">
+    {{-- <section id="mc-section-1" style="padding:25px 0px;" class="mc-section-1 section">
         <div class="container">
             <div class="row">
                 @if($featured_page)
@@ -262,9 +262,31 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- END / SECTION 1 -->
     
+    <div class="row">
+    <div class="col-md-4 text-center" style="margin-top: 25px;">
+        
+          <p> ICON</p>
+          <p> TEXT</p>
+        
+    </div>
+
+    <div class="col-md-4 text-center" style="margin-top: 25px;">
+        
+          <p> ICON</p>
+          <p> TEXT</p>
+        
+    </div>
+
+    <div class="col-md-4 text-center" style="margin-top: 25px;">
+        
+          <p> ICON</p>
+          <p> TEXT</p>
+        
+    </div>
+    </div>
     @if(config('settings.adsense_top_responsive_slot') != '')
         <section id="mc-section-3" class="mc-section-3 section">
             <div class="container">

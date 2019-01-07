@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" style="background-color: green">
       <div class="container-fluid">
         <div class="navbar-header">
           
@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
           </button>
           <a href="{{ url('/') }}" class="navbar-brand" style="padding:5px 15px; ">
-            <img src="/logo.png" style="max-height:90%;" />
+            <img src="/flexi.png" style="max-height:90%;margin-left: 50px;border: 0.5px " />
           </a>
         </div>
         
