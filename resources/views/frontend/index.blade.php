@@ -268,8 +268,8 @@
     <div class="row">
     <div class="col-md-4 text-center" style="margin-top: 25px;">
         
-          <p> ICON</p>
           <p> TEXT</p>
+          <p> samp</p>
         
     </div>
 
