@@ -267,23 +267,27 @@
     
     <div class="row">
     <div class="col-md-4 text-center" style="margin-top: 25px;">
+        <img src="images/learning.png" style="width: 150px;">
         
-          <p> ICON</p>
-          <p> TEXT</p>
+          <br><br>
+          <p> Convinience</p>
+
         
     </div>
 
     <div class="col-md-4 text-center" style="margin-top: 25px;">
         
-          <p> ICON</p>
-          <p> TEXT</p>
+          <img src="images/studying.png" style="width: 150px;">
+          <br><br>
+          <p class="leead"> Online Access</p>
         
     </div>
 
     <div class="col-md-4 text-center" style="margin-top: 25px;">
         
-          <p> ICON</p>
-          <p> TEXT</p>
+          <img src="images/learni.png" style="width: 150px;">
+          <br><br>
+          <p> Save Time</p>
         
     </div>
     </div>
