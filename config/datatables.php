@@ -32,7 +32,22 @@ return [
     /*
      * DataTables internal index id response column name.
      */
-    'index_column' => 'DT_RowIndex',
+    'index_column' => 'DT_Row_Index',
+
+    /*
+     * DataTables fractal configurations.
+     */
+    'fractal'        => [
+        /*
+         * Request key name to parse includes on fractal.
+         */
+        'includes'   => 'include',
+
+        /*
+         * Default fractal serializer.
+         */
+        'serializer' => League\Fractal\Serializer\DataArraySerializer::class,
+    ],
 
     /*
      * List of available builders for DataTables.
@@ -51,10 +66,10 @@ return [
      * Note, only change this if you know what you are doing!
      */
     'builders' => [
-        //Illuminate\Database\Eloquent\Relations\Relation::class => 'eloquent',
-        //Illuminate\Database\Eloquent\Builder::class            => 'eloquent',
-        //Illuminate\Database\Query\Builder::class               => 'query',
-        //Illuminate\Support\Collection::class                   => 'collection',
+        Illuminate\Database\Eloquent\Relations\Relation::class => 'eloquent',
+        Illuminate\Database\Eloquent\Builder::class            => 'eloquent',
+        Illuminate\Database\Query\Builder::class               => 'query',
+        Illuminate\Support\Collection::class                   => 'collection',
     ],
 
     /*
