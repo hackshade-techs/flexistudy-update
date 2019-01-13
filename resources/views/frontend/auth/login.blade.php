@@ -53,7 +53,7 @@
                             </div>
                             
                             <ul class="list-unstyled social-login">
-                                {!! $socialite_links !!}
+                                {!! $socialiteLinks !!}
                                 <!--
                                 <li><a href="{{ route('frontend.auth.social.login',['provider' => 'facebook']) }}"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="{{ route('frontend.auth.social.login',['provider' => 'twitter']) }}"><i class="fa fa-twitter"></i></a></li>

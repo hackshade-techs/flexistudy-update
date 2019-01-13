@@ -1,6 +1,12 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
     "/js/backend.js": "/js/backend.js",
-    "/js/frontend.js": "/js/frontend.js"
+    "/js/frontend.js": "/js/frontend.js",
+    "/css/frontend.css": "/css/frontend.css",
+    "/css/vendor/bootstrap.css": "/css/vendor/bootstrap.css",
+    "/css/backend.css": "/css/backend.css",
+    "/css/themes/blue.css": "/css/themes/blue.css",
+    "/css/themes/green.css": "/css/themes/green.css",
+    "/css/themes/grey.css": "/css/themes/grey.css",
+    "/css/themes/red.css": "/css/themes/red.css",
+    "/css/themes/olive.css": "/css/themes/olive.css"
 }

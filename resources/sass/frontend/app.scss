@@ -1,27 +1,28 @@
 // Fonts
-//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 
 // Variables
-//@import "variables";
+@import "variables";
 
 // Bootstrap
-//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+//@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
 // Font Awesome
-//@import "~font-awesome/scss/font-awesome";
+@import "~font-awesome/scss/font-awesome";
 
 // Helpers
-//@import "../helpers";
+@import "../helpers";
 
 // Global
-//@import "global";
+@import "global";
 
 // Pages
-//@import "pages/dashboard";
+@import "pages/dashboard";
 
 @import "node_modules/selectize/dist/css/selectize.default";
 @import "node_modules/video.js/dist/video-js.min";
-//@import "node_modules/videojs-iplayer-skin/dist/videojs-iplayer-theme.min";
+//@import "node_modules/videojs-iplayer-skin-1/dist/videojs-iplayer-theme.min";
 
 // Plugins
 @import "../plugin/toastr/toastr.scss";
